@@ -4,11 +4,11 @@
 
 ## Live demo
 
-The site is deployed through Vercel, which you can view from [here]()
+The site is deployed through Vercel, which you can view from [here](armuseum.vercel.app)
 
 ## Demo video
 
-CLick [here]() to view the demo.
+CLick [here](https://youtu.be/-Td9xLAsitY) to view the demo.
 
 ## 💡 Inspiration
 
