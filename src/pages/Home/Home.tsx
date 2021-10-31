@@ -16,7 +16,7 @@ export default function Home() {
 
                             <p className="self-center text-xl tracking-wide text-justify font-sourceSerifPro">AR Museum is an AR-based web platform which allow users of Cuseum-powered apps to experience the artworks from the comfort of their homes. Users will be able to virtually place objects onto their home and revel in artworks that are typically only available to view inside a museum setting. </p>
 
-                            <Link to="/chemMolecule" className="md:w-1/3">
+                            <Link to="/museum" className="md:w-1/3">
                                 <button className="p-2 px-8 mt-4 text-base font-semibold tracking-wider text-white border rounded-full shadow-sm font-sourceSerifPro md:w-full bg-red-50 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 hover:shadow-lg ">Explore</button>
                             </Link>
 

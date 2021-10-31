@@ -1,6 +1,5 @@
 import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
-import Headroom from "react-headroom"
 import { Menu, Popover, Transition } from '@headlessui/react'
 import { MenuAlt3Icon, XIcon } from '@heroicons/react/outline'
 import LogoutIcon from "../../assets/logout.png"
@@ -33,7 +32,7 @@ export default function Navbar() {
 
                                     <Link to='/' className="px-3 py-2 mx-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Home</Link>
 
-                                    <Link to='/chemMolecule' className="px-3 py-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Chemical Structures</Link>
+                                    <Link to='/museum' className="px-3 py-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Museum</Link>
 
                                     <Link to='/chatroom' className="px-3 py-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Chat</Link>
 
@@ -86,7 +85,7 @@ export default function Navbar() {
 
                                             <Link to='/' className="px-3 py-2 text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Home</Link>
 
-                                            <Link to='/chemMolecule' className="px-3 py-2 text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Chemical Structures</Link>
+                                            <Link to='/museum' className="px-3 py-2 text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Museum</Link>
 
                                             <Link to='/chatroom' className="px-3 py-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Chat</Link>
 
