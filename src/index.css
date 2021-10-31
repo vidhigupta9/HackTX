@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dce4f7;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #55198b !important;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(126, 38, 185, 0.959);
+  border-radius: 12px;
+}
+
+input:focus-within ~ label {
+  @apply text-blue-500;
+}
+.outline input:focus-within ~ label,
+.outline input:not(:placeholder-shown) ~ label {
+  @apply transform scale-75 -translate-y-5 z-0 ml-1 px-1 py-0;
+}
+
+main {
+  height: 80vh;
+}
+
+.sent p {
+  color: white;
+  background: #0b93f6;
+  align-self: flex-end;
+}
+.received p {
+  background: #e5e5ea;
+  color: black;
+}
